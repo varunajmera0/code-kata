@@ -1,0 +1,2 @@
+docker build -t fixed-width-parser .
+docker run --rm -v $(pwd):/app fixed-width-parser
